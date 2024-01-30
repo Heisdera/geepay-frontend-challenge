@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-icon {
+    @apply flex h-10 w-full items-center justify-center;
+  }
+
+  .active-theme {
+    @apply flex h-[30px] w-[30px] flex-col items-center justify-center rounded-full bg-primary-color;
+  }
+
+  .row {
+    @apply grid grid-cols-[1.7fr_0.9fr_0.7fr_0.5fr_0.7fr] gap-3;
+  }
+}
+
+:root {
+  &,
+  &.light-mode {
+    --primary-color: #34caa5;
+    --secondary-color: #0d062d;
+
+    --success-color: #66c87b;
+    --error-color: #ed544e;
+    --warning-color: #f4c700;
+
+    --white-color: #ffffff;
+    --background-color: #fdfdfd;
+
+    --neutral-gray-50: #fafafa;
+    --neutral-gray-100: #f5f5f5;
+    --neutral-gray-200: #e5e5e5;
+    --neutral-gray-300: #d4d4d4;
+    --neutral-gray-400: #a3a3a3;
+    --neutral-gray-500: #737373;
+    --neutral-gray-600: #525252;
+    --neutral-gray-700: #404040;
+    --neutral-gray-800: #262626;
+    --neutral-gray-900: #171717;
+
+    --primary-color-12: rgba(52, 202, 165, 0.12);
+    --error-color-12: rgba(237, 84, 78, 0.12);
+
+    --text-color: #898989;
+    --stat-color: #3a3f51;
+    --sidebar-bgColor: #ebecf2;
+    --border-color: #edf2f7;
+    --tooltip-bgColor: #262626;
+  }
+
+  --purple-color: #6160dc;
+  --blue-color: #54c5eb;
+  --orange-color: #ffb74a;
+  --red-color: #ff4a55;
+
+  &.dark-mode {
+    --primary-color: #34caa5;
+    --secondary-color: #0d062d;
+
+    --success-color: #66c87b;
+    --error-color: #ed544e;
+    --warning-color: #f4c700;
+
+    --white-color: #262626;
+    --background-color: #fdfdfd;
+
+    --neutral-gray-50: #404040;
+    --neutral-gray-100: #737373;
+    --neutral-gray-200: #f5f5f5;
+    --neutral-gray-300: #d4d4d4;
+    --neutral-gray-400: #a3a3a3;
+    --neutral-gray-500: #d4d4d4;
+    --neutral-gray-600: #525252;
+    --neutral-gray-700: #404040;
+    --neutral-gray-800: #f5f5f5;
+    --neutral-gray-900: #d4d4d4;
+
+    --primary-color-12: rgba(52, 202, 165, 0.12);
+    --error-color-12: rgba(237, 84, 78, 0.12);
+
+    --text-color: #898989;
+    --stat-color: #d4d4d4;
+    --sidebar-bgColor: #404040;
+    --border-color: #a3a3a3;
+    --tooltip-bgColor: #fdfdfd;
+  }
+}
+
+.none {
+  display: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  display: none;
+}
+
+progress[value] {
+  border-radius: 8px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: var(--background-color);
+  border-radius: 8px;
+}
+
+progress[value]::-webkit-progress-value {
+  /* background-color: var(--error-color); */
+  border-radius: 7px;
+}
+
+progress[value]::-moz-progress-bar {
+  background-color: var(--background-color);
+  border-radius: 8px;
+}
