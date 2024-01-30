@@ -1,4 +1,3 @@
-// import Logo from "./Logo";
 import { useDarkMode } from "../context/DarkModeContext";
 import { useOutsideClick } from "../hooks/useOutsideClick";
 
@@ -8,11 +7,11 @@ function Sidebar({ setShow }) {
 
   return (
     <aside
-      className="top hide-scrollbar fixed z-50 row-span-2 row-start-1 mt-[5vh] flex h-[70vh] w-24 flex-col justify-between overflow-y-auto rounded-r-xl border border-l-0 border-border-color bg-sidebar-bgColor py-2 md:hidden"
+      className="top hide-scrollbar fixed z-50 row-span-2 row-start-1 mt-[5vh] flex h-[70vh] w-24 flex-col justify-between overflow-y-auto rounded-r-xl border border-l-0 border-border-color bg-sidebar-bgColor py-4 md:hidden"
       ref={ref}
     >
       <div className="flex flex-col items-center justify-center gap-5">
-        <div className="flex w-full flex-col items-center justify-center gap-2">
+        <div className="flex w-full flex-col items-center justify-center gap-4">
           <nav className="w-full">
             <ul className="flex flex-col items-center gap-3">
               <li className="relative flex w-full items-center">
