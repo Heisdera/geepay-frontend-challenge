@@ -48,7 +48,7 @@ function InvoiceModal({ order }) {
 
         <button className="px-2 pt-[14px]">
           <i className="h-7 w-7">
-<svg data-name="Design Convert" id="Design_Convert" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#929292;}</style></defs><title/><path class="cls-1" d="M50,52H14a7,7,0,0,1-7-7V41a1,1,0,0,1,2,0v4a5,5,0,0,0,5,5H50a5,5,0,0,0,5-5V41a1,1,0,0,1,2,0v4A7,7,0,0,1,50,52Z"/><path class="cls-1" d="M32,41a1,1,0,0,1-1-1V13a1,1,0,0,1,2,0V40A1,1,0,0,1,32,41Z"/><path class="cls-1" d="M32,42a1,1,0,0,1-.71-.29l-10-10a1,1,0,0,1,1.42-1.42L32,39.59l9.29-9.3a1,1,0,0,1,1.42,1.42l-10,10A1,1,0,0,1,32,42Z"/></svg>
+<svg data-name="Design Convert" id="Design_Convert" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:"#929292";}</style></defs><title/><path class="cls-1" d="M50,52H14a7,7,0,0,1-7-7V41a1,1,0,0,1,2,0v4a5,5,0,0,0,5,5H50a5,5,0,0,0,5-5V41a1,1,0,0,1,2,0v4A7,7,0,0,1,50,52Z"/><path class="cls-1" d="M32,41a1,1,0,0,1-1-1V13a1,1,0,0,1,2,0V40A1,1,0,0,1,32,41Z"/><path class="cls-1" d="M32,42a1,1,0,0,1-.71-.29l-10-10a1,1,0,0,1,1.42-1.42L32,39.59l9.29-9.3a1,1,0,0,1,1.42,1.42l-10,10A1,1,0,0,1,32,42Z"/></svg>
           </i>
           </button>
       </div>
