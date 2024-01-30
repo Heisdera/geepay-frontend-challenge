@@ -15,7 +15,7 @@ function Sidebar({ setShow }) {
         <div className="flex w-full flex-col items-center justify-center gap-2">
           <nav className="w-full">
             <ul className="flex flex-col items-center gap-3">
-              <li className="relative w-full items-center">
+              <li className="relative flex w-full items-center">
                 <button className="nav-icon">
                   <img src="../../assets/category.png" />
                 </button>
