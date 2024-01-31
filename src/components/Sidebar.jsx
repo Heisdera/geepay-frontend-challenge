@@ -1,6 +1,5 @@
 import Logo from "./Logo";
 import { useDarkMode } from "../context/DarkModeContext";
-import { useState } from "react";
 
 function Sidebar() {
   const { isDarkMode, toggleDarkMode } = useDarkMode();

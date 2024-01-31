@@ -9,7 +9,6 @@ function AppLayout() {
 
   function handleToggle() {
     setShow((show) => !show);
-    console.log("clicked");
   }
 
   return (
