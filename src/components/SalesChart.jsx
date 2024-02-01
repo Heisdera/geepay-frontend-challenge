@@ -19,7 +19,7 @@ const CustomTooltip = ({ active, payload }) => {
       <div
         className="relative mx-2"
         style={{
-          transform: `translate(-58%, -0px)`,
+          transform: `translate(-60%, -0px)`,
         }}
       >
         <div className="rounded-md bg-tooltip-bgColor px-2 py-[5px] text-sm text-neutral-gray-50">
