@@ -102,6 +102,7 @@ function BarChart() {
               allowEscapeViewBox={{ x: true, y: false }}
               position={barPos}
               active={activeIndex !== null ? true : false}
+              defaultIndex={0}
             />
             <CartesianGrid strokeDasharray="3 3" vertical={false} />
             <Bar dataKey="amount" barSize={30} radius={[20, 20, 0, 0]}>
