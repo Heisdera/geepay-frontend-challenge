@@ -30,7 +30,7 @@ function Window({ children, name }) {
   if (name !== openModalName) return null;
 
   return createPortal(
-    <div className="fixed left-0 top-0 z-50 h-[100vh] w-full bg-black/10 backdrop-blur-[1px] transition-all duration-500">
+    <div className="fixed left-0 top-0 z-50 h-[100vh] w-full bg-black/40 backdrop-blur-[1px] transition-all duration-500">
       <div
         className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-2xl bg-neutral-gray-50 px-6 py-6 shadow-lg"
         ref={ref}
